@@ -8,12 +8,10 @@ public class 별찍기2_2439 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());
 		for (int i = 0; i < n; i++) {
-			for (int j = 1; j < n - i; j++) {
+			for (int j = 1; j < n - i; j++)
 				System.out.print(" ");
-			}
-			for (int k = 0; k <= i; k++) {
+			for (int k = 0; k <= i; k++)
 				System.out.print("*");
-			}
 			System.out.println();
 		}
 	}
