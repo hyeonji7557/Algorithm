@@ -10,11 +10,15 @@ public class 최소최대_10818 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		int[] A = new int[n];
-		for (int i = 0; i < n; i++)
-			A[i] = Integer.parseInt(st.nextToken());
-		Arrays.sort(A);
-		System.out.println(A[0] + " " + A[n-1]);
+		int max = Integer.MIN_VALUE;
+		int min = Integer.MAX_VALUE;
+		for (int i = 0; i < n; i++) {
+			int a = Integer.parseInt(st.nextToken());
+			if (a > max)
+				max = a;
+			if(a < min)
+				min = a;
+		}
+		System.out.println(min + " " + max);
 	}
-
 }
