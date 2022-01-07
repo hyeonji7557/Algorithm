@@ -12,7 +12,7 @@ public class 달팽이는올라가고싶다_2869 {
 		int b = Integer.parseInt(st.nextToken());
 		int v = Integer.parseInt(st.nextToken());
 		int count = (v - b) / (a - b);
-		if ((v - b) / (a - b) != 0)
+		if ((v - b) % (a - b) != 0)
 			count++;
 		System.out.println(count);
 	}
