@@ -4,18 +4,13 @@ import java.io.InputStreamReader;
 
 public class 열개씩끊어출력하기_11721 {
 
-	public static void main(String[] args) throws IOException{
+	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
 		String str = br.readLine();
-		while(str.length() > 0) {
-			if(str.length() < 10) {
-				sb.append(str).append("\n");
-				break;
-			}
-			sb.append(str.substring(0, 10)).append("\n");
-			str = str.substring(10);
+		for (int i = 0; i < str.length(); i++) {
+			System.out.print(str.charAt(i));
+			if(i % 10 == 9) 
+				System.out.println();
 		}
-		System.out.println(sb);
 	}
 }
