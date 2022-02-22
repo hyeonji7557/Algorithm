@@ -54,6 +54,7 @@ public class 스택_10828 {
 	public static int size() {
 		return size;
 	}
+	
 	public static int empty() {
 		if (size == 0)
 			return 1;
