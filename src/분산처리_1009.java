@@ -6,10 +6,10 @@ import java.util.StringTokenizer;
 public class 분산처리_1009 {
 
 	public static void main(String[] args) throws IOException{
-		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-		int t = Integer.parseInt(bf.readLine());
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int t = Integer.parseInt(br.readLine());
 		for (int i = 0; i < t; i++) {
-			StringTokenizer st = new StringTokenizer(bf.readLine());
+			StringTokenizer st = new StringTokenizer(br.readLine());
 			int a = Integer.parseInt(st.nextToken());
 			int b = Integer.parseInt(st.nextToken());
 			int result = 1;
