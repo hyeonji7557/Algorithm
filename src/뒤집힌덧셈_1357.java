@@ -15,7 +15,6 @@ public class 뒤집힌덧셈_1357 {
 		int res = Rev(a + b);
 		System.out.println(res);
 	}
-
 	private static int Rev(int N) {
         String str = "";
         while (N > 0) {
