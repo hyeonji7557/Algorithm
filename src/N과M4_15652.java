@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.StringTokenizer;
  
-public class Main {
+public class N과M4_15652 {
 	public static int n, m;
 	public static int[] arr;
 	public static StringBuilder sb = new StringBuilder();
