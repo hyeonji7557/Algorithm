@@ -21,7 +21,7 @@ public class 균형잡힌세상_4949 {
 	public static String solve(String s) {
 		Stack<Character> stack = new Stack<>();
 		for (int i = 0; i < s.length(); i++) {
-			char c = s.charAt(i); // i 번째 문자
+			char c = s.charAt(i);
 			if (c == '(' || c == '[')
 				stack.push(c);
 			else if (c == ')') {
