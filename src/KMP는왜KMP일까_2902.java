@@ -13,5 +13,6 @@ public class KMP는왜KMP일까_2902 {
 				a += str.charAt(i);
 		}
 		System.out.println(a);
+		
 	}
 }
