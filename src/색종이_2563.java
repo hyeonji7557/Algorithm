@@ -20,6 +20,7 @@ public class 색종이_2563 {
 						continue;
 					map[j][k] = 1;
 					++count;
+					
 				}
 			}
 		}
