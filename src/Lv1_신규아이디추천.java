@@ -40,6 +40,7 @@ public class Lv1_신규아이디추천 {
 				s += String.valueOf(a);
 			}
 		}
+		
 		return s;
 	}
 }
