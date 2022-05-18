@@ -9,6 +9,7 @@ public class D1_홀수만더하기 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int t = Integer.parseInt(br.readLine());
 		int sum = 0;
+		int b = 1;
 		for (int i = 0; i < t; i++) {
 			StringTokenizer st = new StringTokenizer(br.readLine());
 			while (st.hasMoreTokens()) {
@@ -16,9 +17,9 @@ public class D1_홀수만더하기 {
 				if (a % 2 == 1)
 					sum += a;
 			}
-			System.out.println("#1 " + sum);
+			System.out.println("#" + b + " " + sum);
 			sum = 0;
+			b++;
 		}
 	}
-
 }
