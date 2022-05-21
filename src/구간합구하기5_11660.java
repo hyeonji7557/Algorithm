@@ -18,6 +18,7 @@ public class 구간합구하기5_11660 {
 				map[i][j] = Integer.parseInt(st.nextToken());
 			}
 		}
+		
 		int[][] dp = new int[n + 1][n + 1];
 		for (int i = 1; i <= n; i++) {
 			for (int j = 1; j <= n; j++) {
