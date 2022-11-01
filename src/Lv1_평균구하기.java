@@ -8,6 +8,7 @@ public class Lv1_평균구하기 {
 			answer += arr[i];
 			count++;
 		}
+		
 		answer = answer / count;
 		return answer;
 	}
