@@ -6,12 +6,10 @@ public class Lv0_구슬을나누는경우의수 {
 		int c = 1;
 		for (int i = 1; i <= balls; i++) 
 			a = a * i;
-		for (int i = 1; i <= share; i++) {
+		for (int i = 1; i <= share; i++) 
 			b = b * i;
-		}
-		for (int i = 1; i <= balls - share; i++) {
+		for (int i = 1; i <= balls - share; i++) 
 			c = c * i;
-		}
 		return (a / (b * c));
 	}
 }
