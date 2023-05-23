@@ -13,7 +13,7 @@ public class D1_평균값구하기 {
 			StringTokenizer st = new StringTokenizer(br.readLine());
 			for (int j = 0; j < 10; j++)
 				sum += Integer.parseInt(st.nextToken());
-			System.out.format("#%d %.0f\n", i, sum / 10.0);
+			System.out.format("#%d %.0f\n", i, sum/10.0);
 		}
 	}
 }
