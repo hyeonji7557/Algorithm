@@ -1,4 +1,4 @@
-package JAVA;
+
 import java.util.Scanner;
 
 public class A더하기B빼기3_10950 {
