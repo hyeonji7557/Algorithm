@@ -1,3 +1,4 @@
+package JAVA;
 import java.util.Scanner;
 
 public class A나누기B_1008 {
