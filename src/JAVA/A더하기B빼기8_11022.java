@@ -1,20 +1,23 @@
+package JAVA;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class A더하기B빼기4_10951 {
+public class A더하기B빼기8_11022 {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
-		String str;
-		while ((str = br.readLine()) != null) {
+		int n = Integer.parseInt(br.readLine());
+		for(int i = 1;i <= n;i++) {
+			String str = br.readLine();
 			StringTokenizer st = new StringTokenizer(str);
 			int a = Integer.parseInt(st.nextToken());
 			int b = Integer.parseInt(st.nextToken());
-			sb.append(a + b).append("\n");
+			sb.append("Case #").append(i).append(": ")
+			.append(a).append(" + ").append(b).append(" = ").append(a + b).append("\n");
 		}
-		System.out.print(sb);
+		System.out.println(sb);
 	}
 }
